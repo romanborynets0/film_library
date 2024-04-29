@@ -1,1 +1,5 @@
 @import "pico.min.css";
+.btn-logout{
+    width: 110px !important;
+    float: right;
+}

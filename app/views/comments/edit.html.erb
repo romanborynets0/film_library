@@ -1,0 +1,4 @@
+<%= turbo_frame_tag dom_id(@comment) do %>
+  <h3>Edit Comment <%= @comment.id %> (by <%= @comment.user.email %>)</h3>
+  <%= render partial: 'comments/form', locals: { film: @film } %>
+<% end %>

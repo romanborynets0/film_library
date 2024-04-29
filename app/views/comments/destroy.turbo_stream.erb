@@ -1,0 +1,3 @@
+<%= turbo_stream.remove dom_id(@comment) do %>
+<%= flash[:notice] = 'Comment deleted' %>
+<% end %>
